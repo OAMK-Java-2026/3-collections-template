@@ -1,4 +1,6 @@
 {
-  "exercises.Exercise1Test": 2,
-  "exercises.Exercise2Test": 3
+  "exercises.SetOperationsTest": 1,
+  "exercises.CharacterCounterTest": 2,
+  "exercises.DataOrganizerTest": 2,
+  "exercises.FibonacciTest": 3
 }
