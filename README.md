@@ -27,6 +27,11 @@ that's expected to show a compile error in the tests until you do. There's
 also a matching test file for each exercise, which you don't need to touch —
 it's just there to help you see how you're doing.
 
+Until you implement a class, its test file will show as broken in your
+editor — that's normal. `Main` still builds and runs from the start
+regardless, and a given exercise's tests only start running once you've
+implemented that exercise's class.
+
 There's also a `Main.java` with a `main` method, so you have something
 runnable from the start — it doesn't do anything yet, it's just there so
 your "Run" button works right away.
