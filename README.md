@@ -21,12 +21,11 @@ exercises.
 | 3 | Data Organizer | `src/main/java/exercises/DataOrganizer.java` | 2 |
 | 4 | Fibonacci | `src/main/java/exercises/Fibonacci.java` | 3 |
 
-Each exercise has a `TODO` to fill in, and a matching test file you can use
-to check your work as you go. You don't need to touch the test files —
-they're just there to help you see how you're doing. For **Set Operations**
-and **Fibonacci** the class starts out completely empty, so you'll need to
-design the fields, constructor, and methods yourself from the description
-below — that's expected to show a compile error in the tests until you do.
+Each exercise's class starts out completely empty, so you'll need to design
+the fields, constructor, and methods yourself from the descriptions below —
+that's expected to show a compile error in the tests until you do. There's
+also a matching test file for each exercise, which you don't need to touch —
+it's just there to help you see how you're doing.
 
 There's also a `Main.java` with a `main` method, so you have something
 runnable from the start — it doesn't do anything yet, it's just there so

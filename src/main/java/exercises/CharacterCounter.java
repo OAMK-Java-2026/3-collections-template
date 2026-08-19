@@ -1,11 +1,6 @@
 package exercises;
 
-import java.util.Map;
-
+// TODO: design this class from scratch to satisfy README.md's "Character Counter" spec
+// and the tests in CharacterCounterTest.
 public class CharacterCounter {
-
-    public Map<Character, Integer> count(String inputString) {
-        // TODO: implement this method so the tests in CharacterCounterTest pass
-        throw new UnsupportedOperationException("not implemented yet");
-    }
 }
