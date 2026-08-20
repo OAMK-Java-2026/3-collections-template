@@ -99,7 +99,12 @@ The class `Fibonacci` has:
 - A method `addNext()` that computes the next Fibonacci number, appends it
   to the collection, and returns it.
 - An overload `addNext(Integer)` that extends the sequence with the
-  missing numbers up to the given size.
+  missing Fibonacci numbers up to the given value — repeatedly computing
+  and appending the next Fibonacci number as long as it does not exceed
+  the parameter. If the parameter itself is a Fibonacci number, it is
+  included as the last appended value. If the parameter is not greater
+  than the last number already in the sequence, the sequence is left
+  unchanged.
 - A method `isFibonacci(Integer)` that checks whether a given number is a
   Fibonacci number, returning `true`/`false`.
 - A method `compare(Vector<Integer> seq)` that checks whether the given

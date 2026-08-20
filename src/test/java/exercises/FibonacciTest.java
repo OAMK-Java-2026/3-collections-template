@@ -42,16 +42,25 @@ class FibonacciTest {
     }
 
     @Test
-    void addNextWithParameterExtendsSequenceToThatSize() {
+    void addNextWithParameterExtendsSequenceUpToGivenValueInclusive() {
         Fibonacci fibonacci = new Fibonacci(4);
 
-        fibonacci.addNext(8);
+        fibonacci.addNext(13);
 
         assertEquals(new Vector<>(java.util.List.of(0, 1, 1, 2, 3, 5, 8, 13)), fibonacci.getNumbers());
     }
 
     @Test
-    void addNextWithParameterNotBiggerThanCurrentSizeLeavesSequenceUnchanged() {
+    void addNextWithNonFibonacciParameterStopsBeforeExceedingIt() {
+        Fibonacci fibonacci = new Fibonacci(4);
+
+        fibonacci.addNext(10);
+
+        assertEquals(new Vector<>(java.util.List.of(0, 1, 1, 2, 3, 5, 8)), fibonacci.getNumbers());
+    }
+
+    @Test
+    void addNextWithParameterNotBiggerThanLastNumberLeavesSequenceUnchanged() {
         Fibonacci fibonacci = new Fibonacci(6);
 
         fibonacci.addNext(3);
