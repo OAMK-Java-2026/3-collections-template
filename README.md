@@ -112,14 +112,12 @@ The class `Fibonacci` has:
 
 ## Step by step
 
-1. **Clone this repo**:
-   ```
-   git clone <this repo's URL>
-   cd <the folder that creates>
-   ```
-2. **Open it in VS Code**: `code .` (or File → Open Folder). If prompted
-   "This workspace has extension recommendations", click **Install** — this
-   adds a flask-shaped **Testing** icon to the left sidebar.
+1. **Clone this repo** using VS Code's Source Control view: open VS Code,
+   click the **Source Control** icon in the left sidebar, choose **Clone
+   Repository**, and paste in this repo's URL.
+2. **Open it in VS Code** once it's cloned. If prompted "This workspace has
+   extension recommendations", click **Install** — this adds a flask-shaped
+   **Testing** icon to the left sidebar.
 3. **Run the tests before changing anything**, just to see where you're
    starting from. Click the flask icon, then the play button at the top of
    the Test Explorer panel — everything will be red at first, and that's
